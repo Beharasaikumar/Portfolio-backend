@@ -8,7 +8,7 @@ const express = require("express");
    const app = express();
 
    app.use(cors({
-    origin: 'http://localhost:5173', // Adjust to your frontend port
+    origin: 'https://saikumarr.netlify.app', // Adjust to your frontend port
     methods: ['GET', 'POST'],
     credentials: true
   }));
